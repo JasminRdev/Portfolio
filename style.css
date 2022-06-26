@@ -198,7 +198,6 @@ nav {
     .img.a, .img.b, .img.c, .img.d, .img.e , .img.another {
         height: 50vh;
         width: 100vw;
-        filter: grayscale(100%);
     }
 
    
