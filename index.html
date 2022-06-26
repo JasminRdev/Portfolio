@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="home" class="container">
+
+    <nav id="nav">
+      <div onClick="toggleMenu()" class="menu-btn" id="menu-btn"></div>
+      <p class="title">Jasmin Reich - My Projects </p>
+      <div class="nav-bar" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="./images/Jasmin CV.pdf" download="Jasmin Reich CV">CV</a>
+        <a href="mailto: jasminreich0@gmail.com">Contact</a>
+      </div>
+      <div class="contact">
+        <a href="mailto: jasminreich0@gmail.com"> <img src="./images/contact/gmail.png" alt="gmail-link"></a>
+        <a href="https://github.com/JasminRdev"> <img src="./images/contact/github.png" alt="github-link"></a>
+        <a href="https://twitter.com/Jasmin_Rdev"> <img src="./images/contact/twitter.png" alt="twitter-link"></a>
+        <a href="https://www.linkedin.com/in/jasmin-reich-217148212/"> <img src="./images/contact/linkedin.png"
+            alt="linkedIn-link"></a>
+      </div>
+    </nav>
+
+    <div class="wrapper" id="background-for-menu">
+
+      <section class="slide-container">
+        <div class="slider">
+
+
+          <div class="mySlider " style="display:block">
+            <video class="img a" autoplay loop muted>
+              <source src="./images/projects/secret.mp4" type="video/mp4">
+            </video>
+            <div class="txt">
+              <h1>Secret application</h1>
+              <p>This application allows you with an easy login process to submit any secret. This projects includes
+                about various different types of increasing security -(encryption, hashing, salting) services to log in
+                like third party OAuth for google, node.js, passport.js to add cookies and sessions, , mongoDB(mongoose)
+                to store data.</p>
+              <a href="https://sleepy-depths-26400.herokuapp.com/" class="arrow-column">Website <img
+                  src="./images/icon-arrow.svg" alt="arrow"></a>
+              <a href="https://github.com/JasminRdev/Whisper-auth" class="arrow-column">My Code <img
+                  src="./images/icon-arrow.svg" alt="arrow"></a>
+            </div>
+          </div>
+
+
+          <div class="mySlider ">
+            <video class="img b" autoplay loop muted>
+              <source src="./images/projects/react.mp4" type="video/mp4">
+            </video>
+            <div class="txt">
+              <h1>React note</h1>
+              <p>Together with part 2 in my current course called <a href="https://fullstackopen.com/">fullstack
+                  open</a> I got a deeper understanding about react. This app allows you to add and check-off any note.
+                The user can choose to filter notes by the importance. Once an input is submitted it's send to the json
+                file that is through axios communitacting to the browser.</p>
+              <a href="https://note-reminder-on-important.herokuapp.com/" class="arrow-column">Website <img
+                  src="./images/icon-arrow.svg" alt="arrow"></a>
+              <a href="https://github.com/JasminRdev/Note-react-app" class="arrow-column">My Code <img
+                  src="./images/icon-arrow.svg" alt="arrow"></a>
+            </div>
+          </div>
+
+          <div class="mySlider ">
+            <video class="img c" autoplay loop muted>
+              <source src="./images/projects/blog.mp4" type="video/mp4">
+            </video>
+            <div class="txt">
+              <h1>Blog (EJS)</h1>
+              <p>Compose anything that will render on the home page. Thanks to ejs templating "Home, About and Contact
+                us" in the header is a link to an individual site with the same header and footer. Clicking on the
+                article it's rendering the full text from the compose on an another link because of the usage with
+                "params".</p>
+              <a href="https://secure-beyond-84399.herokuapp.com/" class="arrow-column">Website <img
+                  src="./images/icon-arrow.svg" alt="arrow"></a>
+              <a href="https://github.com/JasminRdev/Blog---node.js" class="arrow-column">My Code <img
+                  src="./images/icon-arrow.svg" alt="arrow"></a>
+            </div>
+          </div>
+
+          <div class="mySlider ">
+            <video class="img d" autoplay loop muted>
+              <source src="./images/projects/signup.mp4" type="video/mp4">
+            </video>
+            <div class="txt">
+              <h1>Sign up newsletter with mailchimp</h1>
+              <p>This project is build with HTML, CSS and nodeJS. It's a single page website with a backend that will
+                allow me to sign people up to my mailing list. If the sign up was successful then I get taken to success
+                page. If it wasn't I get a failure page. Data that got entered in the input gets added to the list on
+                mailchimp and new subscribers gets added.</p>
+              <a href="https://sign-upnewsletter-gango.herokuapp.com/" class="arrow-column">Website <img
+                  src="./images/icon-arrow.svg" alt="arrow"></a>
+              <a href="https://github.com/JasminRdev/Sign-up-newsletter-with-mailchimp" class="arrow-column">my code<img
+                  src="./images/icon-arrow.svg" alt="arrow"></a>
+            </div>
+          </div>
+
+          <div class="mySlider ">
+            <img class="img e" />
+            <div class="txt">
+              <h1>Wanna get your own website?</h1>
+              <a href="mailto: jasminreich0@gmail.com">
+                <p>Let's chat and tell me about your ideas.</p><img class="icon" src="./images/contact/gmail.png"
+                  alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="mySlider ">
+            <video class="img another" autoplay loop muted>
+              <source src="./images/projects/vid1.mp4" type="video/mp4">
+            </video>
+            <div class="txt">
+              <h1>Frontend mentor challenges</h1>
+              <p>Frontend mentor helps me practicing HTML, CSS and JS. It's basically just trying to copy the template
+                as best as possible.</p>
+              <p>At twitter I post all of it.</p>
+              <a href="https://twitter.com/Jasmin_Rdev">
+                <img class="icon" src="./images/contact/twitter.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="arrows">
+            <img class="prev" onClick="plusSlides(-1)" src="./images/icon-angle-left.svg" alt="arrow left">
+            <img class="next" onClick="plusSlides(1)" src="./images/icon-angle-right.svg" alt="arrow right">
+          </div>
+        </div>
+
+
+      </section>
+
+      <section class="info-about">
+        <div class="intro">
+          <img class="img-in-info first" src="./images/Face.jpg" alt="me">
+          <div class="lastText">
+            <h2>
+              About me</h2>
+            <p>
+              Hi, I am Jasmin!
+I'm a web developer mostly focused on frontend but I can also do build full-stack applications designed for all devices. During my education I have been studying programming on CNC milling- & turning machines. 
+In the last years I focused my studies on graphic design, UX and web development. The part I enjoy the most in my journey is that there is constantly something new to learn that opens up new possibilities to create.
+I feel inspired by applications like "Too good to go", "Meetup" or "LinQ" that help others solving their problems engaging with communities.</p>
+          </div>
+          <img class="img-in-info extra" src="./images/skills/code.png" alt="coding illustration">
+        </div>
+
+        <!-- skills -->
+        <div id="skills" class="language">
+
+
+          <div class="first-skills">
+
+            <div class="skill">
+              <img src="./images/skills/html.png" alt="html">
+              <p>HTML</p>
+            </div>
+
+            <div class="skill">
+              <img src="./images/skills/css-3.png" alt="CSS">
+              <p>CSS</p>
+            </div>
+
+            <div class="skill">
+              <img src="./images/skills/js.png" alt="JS">
+              <p>Javascript</p>
+            </div>
+
+
+            <div class="skill">
+              <img src="./images/skills/nodejs.png" alt="nodeJS">
+              <p>NodeJS</p>
+            </div>
+
+            <div class="skill">
+              <img src="./images/skills/react.png" alt="react">
+              <p>ReactJS</p>
+            </div>
+
+            <div class="skill">
+              <img src="./images/skills/mongo.png" alt="mongoDB">
+              <p>MongoDB</p>
+            </div>
+
+            <div class="skill">
+              <img src="./images/skills/git.png" alt="git">
+              <p>Git</p>
+            </div>
+
+            <div class="skill">
+              <img src="./images/skills/restAPI.png" alt="restAPI">
+              <p>RESTful API</p>
+            </div>
+          </div>
+
+          <!--                   other                             -->
+
+          <div class="second-skills">
+
+            <div class="skill extra">
+              <img src="./images/skills/responsive-design.png" alt="responsive design">
+              <p>Responsive design</p>
+            </div>
+
+
+            <div class="skill extra">
+              <img src="./images/skills/design thinking.png" alt="design thinking">
+              <p>Graphic design</p>
+            </div>
+
+
+            <div class="skill">
+              <img src="./images/skills/figma.png" alt="figma">
+              <p>Figma</p>
+            </div>
+
+
+            <div class="skill">
+              <img src="./images/skills/ux.png" alt="ux">
+              <p>UX</p>
+            </div>
+
+          </div>
+
+          <div class="third-skills">
+            <div class="skill">
+              <img src="./images/skills/germany.png" alt="german flag">
+              <p>Native</p>
+            </div>
+
+            <div class="skill">
+              <img src="./images/skills/eng.png" alt="english flag">
+              <p>Advanced</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </section>
+    </div>
+    <div class="resource-links">
+      <a href="https://www.flaticon.com/" title="down arrow icons">Icons from Flaticon</a> and <a target="_blank"
+        href="https://icons8.com">Icons8</a>
+  
+      <a href='https://de.freepik.com/'>Foto von rawpixel.com</a>
+    </div>
+  </div>
+
+
+
+
+
+  
+
+  <script src="script.js"></script>
+</body>
+
+</html>
